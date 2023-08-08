@@ -9,7 +9,7 @@
     box-shadow: rgba(0, 0, 0 , 20%) 0px 7px 29px 0px;
 
 }
-/* 
+
 .form-control{
     width: 100%;
 }
@@ -35,6 +35,13 @@
 .form-control input:focus{
     background-color: rgb(207, 205, 205);
     color: #000;
-} */
+}
+
+.form-control.invalid input{
+    background-color: rgb(214, 119, 119);
+}
+.form-control.invalid label{
+    color: rgb(216, 94, 94);
+}
 
 

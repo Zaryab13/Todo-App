@@ -1,5 +1,5 @@
-import TodoForm from './components/todoForm/TodoForm';
-import TodoList from './components/todolist/TodoList';
+import TodoForm from './components/Todos/todoForm/TodoForm';
+import TodoList from './components/Todos/todolist/TodoList';
 import './App.css';
 import { useState } from 'react';
 
@@ -46,7 +46,6 @@ function App() {
       <section>
        <TodoForm onAddGoal={addTaskHandler}/>
        {content}
-       {/* <TodoList todos={todos} deleteListItem={deleteTodoHandler}/> */}
       </section>
     </div>
   );
